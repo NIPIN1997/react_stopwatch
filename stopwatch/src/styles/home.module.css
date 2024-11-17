@@ -1,0 +1,56 @@
+.content {
+  background-color: rgba(19, 19, 19, 0.899);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.display {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  width: 50%;
+  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  font-size: 50px;
+  padding-top: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.buttonsDiv {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 20px;
+  border-style: outset;
+  cursor: pointer;
+}
+
+.buttons:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
